@@ -19,7 +19,7 @@
 function Circle(radius){
   this.radius = radius;
   let defaultloaction = {x:0, y:0};
-  let compute 
+  // let compute 
 
 }
 const circle = new Circle(3)
