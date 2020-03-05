@@ -1,20 +1,15 @@
-let mytodos = {
+const mytodos = {
     meetings :3,
     meetdone :60,
 
-    addmeeting: function(a){
-        // this.meetings +=a;
-        console.log(this)
+    // addmeeting: function(a){
+    //     this.meetings +=a;
+    //     console.log(this)
     }
-}
-let mytodos1 = {
-    meetings :49,
-    meetdone :64,
 
-    addmeeting: function(a){
-        // this.meetings +=a;
-        console.log(this)
-    }
-}
-mytodos.addmeeting()
-mytodos1.addmeeting()
+
+
+// mytodos.addmeeting(1)
+console.log(mytodos)
+mytodos.meetings +=10
+console.log(mytodos)
